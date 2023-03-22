@@ -1,0 +1,45 @@
+@import '../base/variables';
+
+.productImages__arrowLeftDiv, .productImages__arrowRightDiv{
+    display: none;
+}
+.productDecription__price{
+    font-size:$large;
+    font-weight: 700;
+    margin: $large 0 $large 0;
+}
+
+.productDescription__desc{
+    margin-bottom: -12px;
+}
+
+
+
+
+@media screen and (min-width:900px) {
+    .productDescription{
+        display: flex;
+        justify-content:space-between;
+    }
+
+
+    .productDescription__desc{
+    margin-top:$small;
+    font-size:$small;
+    font-weight: 500;
+    }
+    .productDescription__article{
+    padding-left:$x-large;
+    }
+    .x-mobil{
+        display: none;
+    }
+    .productDecription__price{
+        font-size: $x-large;
+        margin: $x-large 0 $x-large 0;
+    
+    }
+    .productImagesCurrentImageDiscPrice{
+        text-align: center;
+    }
+}

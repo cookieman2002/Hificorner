@@ -1,0 +1,25 @@
+//mobile wrapper
+.wrapper {
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img,
+svg {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+.standardMargin{
+    margin-bottom: 3rem;
+}
